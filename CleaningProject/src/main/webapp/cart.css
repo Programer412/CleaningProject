@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  .main{
+      width: 101%;
+      background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%), url(2.jpg);
+          background-position:center;
+       background-position:fixed;
+          background-attachment:fixed;
+          
+position:absolute;
+      height: 120%;
+  }
+      .navbar{
+          width: 1274px;
+          height: 75px;
+          margin: auto;
+              }
+              .icon{
+              
+              
+                    width: 250px;
+                  float: left;
+                  height: 70px;
+              }
+             
+              .logo{
+                  color: #ff7200;
+                  font-size: 32px;
+                  font-family: Arial;
+                  padding-left: 0px;
+                  float: left;
+                  padding-top: 10px;
+              }
+              .menu{
+                  width: 400px;
+                  float: left;
+                  height:70px;
+              }
+             ul{
+                  float: left;  
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+   
+                  }
+             
+                  ul li{
+                      list-style: none;
+                      margin-left: 62px;
+                      margin-top: 20px;
+                      font-size:  14px;
+                         
+                  }
+                  ul li a{
+                      text-decoration-color: aquamarine;
+                      color: #fff;
+                      font-family: Arial;
+                      font-weight:bold;
+                      transition: 0.1s ease-in-out;
+                       }
+  
+                       ul li a:hover{
+                           color: #ff7200;
+                       }
+                       .search{
+                        float:left;
+                    
+                        width:300px;
+                        margin-left:270px;
+                       
+                       }
+                       .srch{
+                        font-family:"Times New Roman";
+                        width: 200px;
+                        height: 40px;
+                        background: transparent; 
+                        border: 1px solid #ff7200;
+                        margin-top:13px;
+                        color:#fff;
+                        border-right:none;
+                        font-size:16px;
+                        float:left;
+                        padding: 10px;
+                        border-bottom-left-radius: 5px;
+                        border-top-left-radius: 5px;
+                        
+                       
+                       }
+                       .btn{
+                        border:1px solid #ff7200;
+                        background:#ff7200;
+                        width:100px;
+                         height:40px;
+                  
+                         float:right;
+                         margin-top:13px;
+                    border-bottom-left-radius:10px;
+                    text-decoration: none;
+
+                       }
+                    .btn a{
+                    text-decoration:none;
+                    color:black
+                    }
+                    
+                    
+                       
+                       .btn2{
+                        border:1px solid #ff7200;
+                        background:#ff7200;
+                        width:100px;
+                         height:40px;
+                        
+                         margin-top:13px;
+                    border-bottom-left-radius:10px;
+                    text-decoration: none;
+                    transition:1s;
+
+                       }
+                       .btn2:hover{
+                       background-color:white;
+                       }
+                
+                  
+                  table,td,th{
+                  
+
+                  position:relative;   
+            
+                  text-align: center; 
+    vertical-align: middle;
+    
+         
+                  border:1px solid #ff7200;
+                  padding:10px;
+        
+                  color:white;
+                  }
+                  .space{
+                padding:5px;
+                  }
+                  
+                  
